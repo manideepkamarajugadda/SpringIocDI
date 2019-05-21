@@ -30,9 +30,6 @@
     	<property name="emailAddress" value="${foo.email}"></property>
     	<property name="team" value="${foo.team}"></property>
     </bean>
+
 </beans>
-
-
-
-
 

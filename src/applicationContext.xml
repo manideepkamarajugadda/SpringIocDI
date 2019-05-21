@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-<<<<<<< HEAD
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:context="http://www.springframework.org/schema/context"
     xsi:schemaLocation="http://www.springframework.org/schema/beans
@@ -31,20 +30,6 @@
     	<property name="emailAddress" value="${foo.email}"></property>
     	<property name="team" value="${foo.team}"></property>
     </bean>
-</beans>
-
-
-
-
-
-=======
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <bean id="myCoach"
-          class="manideep.spring.TrackCoach">
-
-    </bean>
 
 </beans>
->>>>>>> 3a773f2ae3bac7b80746b6cdea144d55fe8288e6
+
